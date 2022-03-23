@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TrainServiceTest {
-/*
+
     Flyway flyway;
     TrainRepository repository;
     TrainService service;
@@ -80,6 +80,6 @@ class TrainServiceTest {
 
 
 
- */
+
 
 }

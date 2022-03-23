@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TrainRepository {
 
-/*
+
     private JdbcTemplate jdbcTemplate;
 
 
@@ -88,6 +88,5 @@ public class TrainRepository {
 
 
 
- */
 
 }
