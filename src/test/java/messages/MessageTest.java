@@ -7,7 +7,7 @@ import java.time.LocalTime;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MessageTest {
-
+/*
     @Test
     void createMessageTest() {
         Message message = new Message("John", LocalTime.of(12, 30), "Hello");
@@ -17,4 +17,6 @@ class MessageTest {
         assertEquals("Hello", message.getMessageText());
     }
 
+
+ */
 }

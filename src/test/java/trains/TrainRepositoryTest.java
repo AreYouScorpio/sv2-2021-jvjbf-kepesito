@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TrainRepositoryTest {
-
+/*
     Flyway flyway;
     TrainRepository repository;
 
@@ -81,4 +81,6 @@ class TrainRepositoryTest {
         assertEquals(30, repository.findById(generatedId).getNumberOfPassengers());
     }
 
+
+ */
 }
