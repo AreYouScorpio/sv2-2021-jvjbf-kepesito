@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class NumbersTest {
 
-    /*
+
     @Test
     void testIsAbundantNumber() {
         Numbers numbers = new Numbers();
@@ -35,5 +35,5 @@ class NumbersTest {
         assertFalse(numbers.isAbundantNumber(0));
     }
 
-     */
+
 }
