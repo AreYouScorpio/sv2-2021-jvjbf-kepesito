@@ -60,7 +60,21 @@ public class TrainRepository {
 
 
         return jdbcTemplate.query("select id, destination, departure, max_capacity, number_of_passengers from trains where destination=? order by departure",
-        (rs,rowNum)->rs.getString("destination"));
+        (rs,rowNum)->rs.getString("destination")) }
+            stmt.setString(1, destination );
+
+            try (ResultSet rs = stmt.executeQuery()) {
+                while (rs.next()) {
+                    Train train =new Train(rs.getLong("id"), rs.getString("destination"),
+                            rs.getTimestamp("departure").toLocalDateTime(),
+                            rs.getLong("max_capacity"), rs.getLong("number_of_passengers"));
+                    result.add(train);
+                }
+            }
+        } catch (SQLException sqle) {
+            throw new IllegalStateException("Cannot query!", sqle);
+        }
+        return result;
     }
 
 
