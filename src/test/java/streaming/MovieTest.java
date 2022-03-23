@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MovieTest {
-/*
+
     @Test
     void createMovieTest() {
         Content movie = new Movie(new Video("Movie1", 121), Genre.ACTION, 4.5);
@@ -28,5 +28,5 @@ class MovieTest {
     }
 
 
- */
+
 }

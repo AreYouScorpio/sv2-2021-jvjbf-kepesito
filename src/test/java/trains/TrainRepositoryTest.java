@@ -46,7 +46,7 @@ class TrainRepositoryTest {
         assertEquals(0, train.getNumberOfPassengers());
 
     }
-
+/*
     @Test
     void testGetTrainByDestination() {
         repository.insertTrain("Debrecen", LocalDateTime.of(2022, 3, 10, 14, 30), 200);
@@ -83,4 +83,5 @@ class TrainRepositoryTest {
 
 
  */
+
 }

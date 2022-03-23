@@ -9,7 +9,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.*;
 
 class StreamingServiceTest {
-/*
+
     StreamingService service = new StreamingService();
 
     @BeforeEach
@@ -49,6 +49,7 @@ class StreamingServiceTest {
                 service.getContentsSortedByRating().stream().map(Content::getTitle).toList());
     }
 
+
     @Test
     void findByTitleTest() {
         assertEquals("Series 3", service.findByTitle("Series 3").get(0).getTitle());
@@ -74,5 +75,5 @@ class StreamingServiceTest {
     }
 
 
- */
+
 }

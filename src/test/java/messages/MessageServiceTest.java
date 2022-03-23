@@ -8,7 +8,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MessageServiceTest {
-/*
+
     @Test
     void testReadFromFile() {
         MessageService messageService = new MessageService();
@@ -35,5 +35,5 @@ class MessageServiceTest {
     }
 
 
- */
+
 }

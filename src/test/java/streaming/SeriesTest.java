@@ -7,7 +7,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SeriesTest {
-/*
+
     @Test
     void createSeriesTest() {
         List<Video> videos = List.of(new Video("Part1", 45), new Video("Part2", 47), new Video("Part3", 43));
@@ -53,5 +53,5 @@ class SeriesTest {
     }
 
 
- */
+
 }
